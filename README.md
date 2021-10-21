@@ -70,10 +70,4 @@ The best model for our analysis was Easy Ensemble AdaBoost, with an accuracy tes
 
 One model I would not use would be Undersampling as it has the lowest accuracy test.
 
-When analyzing the data we found 3 variables that are not significant for our models, in all the data set the value is the same because it does not influence our target variable and therefore can be dropped:
-
-- pymnt_plan
-- hardship_flag
-- debt_settlement_flag
-
-Another reason that justifies the decision is that within the list of characteristics classified in descending order according to the importance of the characteristic, we can find these variables in last place.
+When analyzing the data we found 3 variables that are not significant for our models; pymnt_plan, debt_settlement_flag and hardship_flag within the list of characteristics classified in descending order according to the importance of the characteristic, we can find these variables in last place and in all the data set the value is the same because it does not influence our target variable and therefore can be dropped.
